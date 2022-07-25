@@ -1,0 +1,75 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+ 
+    
+#header{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 5px 10px grey;
+    margin-top: 20px;}
+#leftLogo img{
+     height: 100px; 
+     width: 200px;
+    margin-left: 50px;
+}
+#cameraLogo {
+    margin-left: 900px;;
+    height:50%;
+}
+ 
+ 
+.post{
+    margin: 20px;
+    box-shadow: yellow;
+    border: 1px solid #f2f2f2;
+    box-shadow: 2px 2px #f2f2f2;
+    max-width: 30vw;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    display: block;
+    margin: 20px auto;
+    background: white;
+}
+
+ 
+#postimg{
+    min-width: -webkit-fill-available;
+}
+img{
+    max-width: -webkit-fill-available;
+    height: 400px;
+    width: 400px;
+}
+
+.user-information{
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-information h3{
+    margin: 0px !important;
+}
+ 
+ 
+.user-meta, .user-likes, .user-description{
+    margin: 0px 20px;
+}
+.user-likes{
+    float: left;
+}
+.user-meta{
+    margin-top: 5px;
+    float: right;
+}
+ #user-description{
+margin-top:40px;
+float: left;
+ }
